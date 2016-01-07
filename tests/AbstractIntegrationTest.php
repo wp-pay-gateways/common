@@ -11,9 +11,34 @@
  */
 class Pronamic_WP_Pay_Gateways_AbstractIntegrationTest extends PHPUnit_Framework_TestCase {
 	/**
-	 * Test
+	 * Test get ID function
 	 */
-	public function test() {
-		$this->assertTrue( class_exists( 'Pronamic_WP_Pay_Gateways_AbstractIntegration' ) );
+	public function test_get_id() {
+		$reflection = new ReflectionClass( 'Pronamic_WP_Pay_Gateways_AbstractIntegration' );
+
+		$property = $reflection->getProperty( 'id' );
+		$property->setAccessible( true );
+
+		$integration = $this->getMockForAbstractClass( 'Pronamic_WP_Pay_Gateways_AbstractIntegration' );
+
+		$property->setValue( $integration, 'test-id' );
+
+		$this->assertEquals( 'test-id', $integration->get_id() );
+	}
+
+	/**
+	 * Test get name function
+	 */
+	public function test_get_name() {
+		$reflection = new ReflectionClass( 'Pronamic_WP_Pay_Gateways_AbstractIntegration' );
+
+		$property = $reflection->getProperty( 'name' );
+		$property->setAccessible( true );
+
+		$integration = $this->getMockForAbstractClass( 'Pronamic_WP_Pay_Gateways_AbstractIntegration' );
+
+		$property->setValue( $integration, 'Test Name' );
+
+		$this->assertEquals( 'Test Name', $integration->get_name() );
 	}
 }
