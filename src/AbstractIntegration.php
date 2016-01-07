@@ -19,7 +19,15 @@ abstract class Pronamic_WP_Pay_Gateways_AbstractIntegration implements Pronamic_
 		return $this->id;
 	}
 
+	public function set_id( $id ) {
+		$this->id = $id;
+	}
+
 	public function get_name() {
 		return $this->name;
+	}
+
+	public function set_name( $name ) {
+		$this->name = $name;
 	}
 }
