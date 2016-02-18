@@ -30,4 +30,14 @@ abstract class Pronamic_WP_Pay_Gateways_AbstractIntegration implements Pronamic_
 	public function set_name( $name ) {
 		$this->name = $name;
 	}
+
+	/**
+	 * Get required settings for this integration.
+	 *
+	 * @see https://github.com/wp-premium/gravityforms/blob/1.9.16/includes/fields/class-gf-field-multiselect.php#L21-L42
+	 * @return array
+	 */
+	public function get_settings() {
+		return array();
+	}
 }
