@@ -17,7 +17,5 @@ interface Pronamic_WP_Pay_Gateways_IntegrationInterface {
 
 	public function get_config_factory_class();
 
-	public function get_config_class();
-
 	public function get_settings_class();
 }
