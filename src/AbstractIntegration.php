@@ -41,4 +41,30 @@ abstract class Pronamic_WP_Pay_Gateways_AbstractIntegration implements Pronamic_
 	public function get_settings() {
 		return array();
 	}
+
+	public function get_dashboard_url() {
+		$url = array();
+
+		if ( isset( $this->dashboard_url ) ) {
+			if ( is_string( $this->dashboard_url ) ) {
+				$url = array( $this->dashboard_url );
+			} elseif ( is_array( $this->dashboard_url ) ) {
+				$url = $this->dashboard_url;
+			}
+		}
+
+		return $url;
+	}
+
+	public function get_product_url() {
+		$url = false;
+
+		if ( isset( $this->product_url ) ) {
+			$url = $this->product_url;
+		} elseif ( isset( $this->url ) ) {
+			$url = $this->url;
+		}
+
+		return $url;
+	}
 }
