@@ -8,4 +8,4 @@
 [![Total Downloads](https://poser.pugx.org/wp-pay-gateways/common/downloads.svg)](https://packagist.org/packages/wp-pay-gateways/common)
 [![Latest Unstable Version](https://poser.pugx.org/wp-pay-gateways/common/v/unstable.svg)](https://packagist.org/packages/wp-pay-gateways/common)
 [![License](https://poser.pugx.org/wp-pay-gateways/common/license.svg)](https://packagist.org/packages/wp-pay-gateways/common)
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
