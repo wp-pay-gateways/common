@@ -1,5 +1,7 @@
 <?php
 
+namespace Pronamic\WordPress\Pay\Gateways\Common;
+
 /**
  * Title: Integration Interface
  * Description:
@@ -11,7 +13,7 @@
  * @since 1.0.0
  * @see https://github.com/thephpleague/omnipay-common/blob/master/src/Omnipay/Common/GatewayInterface.php
  */
-interface Pronamic_WP_Pay_Gateways_IntegrationInterface {
+interface IntegrationInterface {
 	public function get_id();
 
 	public function get_name();

@@ -1,5 +1,7 @@
 <?php
 
+namespace Pronamic\WordPress\Pay\Gateways\Common;
+
 /**
  * Title: Abstract Integration
  * Description:
@@ -11,7 +13,7 @@
  * @since 1.0.0
  * @see https://github.com/thephpleague/omnipay-common/blob/master/src/Omnipay/Common/AbstractGateway.php
  */
-abstract class Pronamic_WP_Pay_Gateways_AbstractIntegration implements Pronamic_WP_Pay_Gateways_IntegrationInterface {
+abstract class AbstractIntegration implements IntegrationInterface {
 	protected $id;
 
 	protected $name;

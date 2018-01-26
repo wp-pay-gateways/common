@@ -15,6 +15,6 @@ class Pronamic_WP_Pay_Gateways_IntegrationInterfaceTest extends PHPUnit_Framewor
 	 * Test
 	 */
 	public function test() {
-		$this->assertTrue( interface_exists( 'Pronamic_WP_Pay_Gateways_IntegrationInterface' ) );
+		$this->assertTrue( interface_exists( 'Pronamic\WordPress\Pay\Gateways\Common\IntegrationInterface' ) );
 	}
 }
