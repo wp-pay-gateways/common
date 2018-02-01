@@ -18,6 +18,14 @@ abstract class AbstractIntegration implements IntegrationInterface {
 
 	protected $name;
 
+	public $url;
+
+	public $product_url;
+
+	public $dashboard_url;
+
+	public $provider;
+
 	public function get_id() {
 		return $this->id;
 	}
