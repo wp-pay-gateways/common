@@ -1,5 +1,9 @@
 <?php
 
+namespace Pronamic\WordPress\Pay\Gateways\Common;
+
+use PHPUnit_Framework_TestCase;
+
 /**
  * Title: Integration Integration test
  * Description:
@@ -10,11 +14,11 @@
  * @version 1.0.0
  * @since 1.0.0
  */
-class Pronamic_WP_Pay_Gateways_IntegrationInterfaceTest extends PHPUnit_Framework_TestCase {
+class IntegrationInterfaceTest extends PHPUnit_Framework_TestCase {
 	/**
 	 * Test
 	 */
 	public function test() {
-		$this->assertTrue( interface_exists( 'Pronamic\WordPress\Pay\Gateways\Common\IntegrationInterface' ) );
+		$this->assertTrue( interface_exists( __NAMESPACE__ . '\IntegrationInterface' ) );
 	}
 }
