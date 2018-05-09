@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1f7e3b609c2434ff2aaf0990c7a0dbe",
+    "content-hash": "9f079584d5db06ea85b7a5da26e9ea79",
     "packages": [
         {
             "name": "wp-pay/core",
-            "version": "dev-develop",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-pay/core.git",
-                "reference": "0fc42a266e4bb0d1d5599740fc4a94ea9e939b86"
+                "reference": "19f1669cacdc54cff404ce3024102bc13c8e4ed2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-pay/core/zipball/0fc42a266e4bb0d1d5599740fc4a94ea9e939b86",
-                "reference": "0fc42a266e4bb0d1d5599740fc4a94ea9e939b86",
+                "url": "https://api.github.com/repos/wp-pay/core/zipball/19f1669cacdc54cff404ce3024102bc13c8e4ed2",
+                "reference": "19f1669cacdc54cff404ce3024102bc13c8e4ed2",
                 "shasum": ""
             },
             "require": {
@@ -65,7 +65,7 @@
                 "wordpress",
                 "wp"
             ],
-            "time": "2018-04-19T08:15:17+00:00"
+            "time": "2018-05-09T08:47:32+00:00"
         }
     ],
     "packages-dev": [
@@ -1841,18 +1841,9 @@
             "time": "2018-02-16T01:57:48+00:00"
         }
     ],
-    "aliases": [
-        {
-            "alias": "1.3",
-            "alias_normalized": "1.3.0.0",
-            "version": "dev-develop",
-            "package": "wp-pay/core"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wp-pay/core": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
