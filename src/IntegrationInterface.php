@@ -1,17 +1,19 @@
 <?php
 
+namespace Pronamic\WordPress\Pay\Gateways\Common;
+
 /**
  * Title: Integration Interface
  * Description:
- * Copyright: Copyright (c) 2005 - 2016
+ * Copyright: Copyright (c) 2005 - 2018
  * Company: Pronamic
  *
  * @author Remco Tolsma
- * @version 1.0.1
+ * @version 2.0.0
  * @since 1.0.0
  * @see https://github.com/thephpleague/omnipay-common/blob/master/src/Omnipay/Common/GatewayInterface.php
  */
-interface Pronamic_WP_Pay_Gateways_IntegrationInterface {
+interface IntegrationInterface {
 	public function get_id();
 
 	public function get_name();
