@@ -11,7 +11,7 @@ namespace Pronamic\WordPress\Pay\Gateways\Common;
  * @author Remco Tolsma
  * @version 2.0.0
  * @since 1.0.0
- * @see https://github.com/thephpleague/omnipay-common/blob/master/src/Omnipay/Common/GatewayInterface.php
+ * @link https://github.com/thephpleague/omnipay-common/blob/master/src/Omnipay/Common/GatewayInterface.php
  */
 interface IntegrationInterface {
 	public function get_id();
