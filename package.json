@@ -1,12 +1,13 @@
 {
   "name": "common",
   "version": "2.0.1",
-  "description": "Common driver for the WordPress payment processing library.",
+  "description": "✗ [DEPRECATED] Common driver for the WordPress payment processing library.",
   "repository": {
     "type": "git",
     "url": "https://github.com/wp-pay-gateways/common"
   },
   "keywords": [
+    "deprecated",
     "wordpress",
     "wp",
     "pay",

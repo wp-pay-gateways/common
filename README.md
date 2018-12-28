@@ -1,4 +1,4 @@
-# WordPress Pay Gateway: Common
+# [DEPRECATED] WordPress Pay Gateway: Common
 
 **Common driver for the WordPress payment processing library.**
 
