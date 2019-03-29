@@ -1,7 +1,7 @@
 {
 	"name": "wp-pay-gateways/common",
-	"description": "Common driver for the WordPress payment processing library.",
-	"keywords": ["wordpress", "wp", "pay", "common", "gateway", "pronamic"],
+	"description": "✗ [DEPRECATED] Common driver for the WordPress payment processing library.",
+	"keywords": ["deprecated", "wordpress", "wp", "pay", "common", "gateway", "pronamic"],
 	"homepage": "http://www.wp-pay.org/gateways/common/",
 	"license": "GPL-3.0-or-later",
 	"authors": [
